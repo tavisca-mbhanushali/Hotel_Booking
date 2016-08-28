@@ -306,8 +306,8 @@ namespace HotelBookingAPI
                 }
 
             } while (role !=3);
-            
 
+            Console.WriteLine("Bye!");
         }
     }
 }
