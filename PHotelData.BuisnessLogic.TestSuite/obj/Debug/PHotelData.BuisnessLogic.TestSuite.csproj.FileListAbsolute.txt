@@ -1,0 +1,16 @@
+C:\Users\mbhanushali\Documents\Visual Studio 2015\Projects\ConsoleApplication7\PHotelData.BuisnessLogic.TestSuite\obj\Debug\PHotelData.BuisnessLogic.TestSuite.csprojResolveAssemblyReference.cache
+C:\Users\mbhanushali\Documents\Visual Studio 2015\Projects\ConsoleApplication7\PHotelData.BuisnessLogic.TestSuite\bin\Debug\PHotelData.BuisnessLogic.TestSuite.dll.config
+C:\Users\mbhanushali\Documents\Visual Studio 2015\Projects\ConsoleApplication7\PHotelData.BuisnessLogic.TestSuite\bin\Debug\PHotelData.BuisnessLogic.TestSuite.dll
+C:\Users\mbhanushali\Documents\Visual Studio 2015\Projects\ConsoleApplication7\PHotelData.BuisnessLogic.TestSuite\bin\Debug\PHotelData.BuisnessLogic.TestSuite.pdb
+C:\Users\mbhanushali\Documents\Visual Studio 2015\Projects\ConsoleApplication7\PHotelData.BuisnessLogic.TestSuite\bin\Debug\ClassLibrary1.dll
+C:\Users\mbhanushali\Documents\Visual Studio 2015\Projects\ConsoleApplication7\PHotelData.BuisnessLogic.TestSuite\bin\Debug\ClassLibrary3.dll
+C:\Users\mbhanushali\Documents\Visual Studio 2015\Projects\ConsoleApplication7\PHotelData.BuisnessLogic.TestSuite\bin\Debug\HotelRegistration2.Data.dll
+C:\Users\mbhanushali\Documents\Visual Studio 2015\Projects\ConsoleApplication7\PHotelData.BuisnessLogic.TestSuite\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\mbhanushali\Documents\Visual Studio 2015\Projects\ConsoleApplication7\PHotelData.BuisnessLogic.TestSuite\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\mbhanushali\Documents\Visual Studio 2015\Projects\ConsoleApplication7\PHotelData.BuisnessLogic.TestSuite\bin\Debug\ClassLibrary1.pdb
+C:\Users\mbhanushali\Documents\Visual Studio 2015\Projects\ConsoleApplication7\PHotelData.BuisnessLogic.TestSuite\bin\Debug\ClassLibrary3.pdb
+C:\Users\mbhanushali\Documents\Visual Studio 2015\Projects\ConsoleApplication7\PHotelData.BuisnessLogic.TestSuite\bin\Debug\HotelRegistration2.Data.pdb
+C:\Users\mbhanushali\Documents\Visual Studio 2015\Projects\ConsoleApplication7\PHotelData.BuisnessLogic.TestSuite\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\mbhanushali\Documents\Visual Studio 2015\Projects\ConsoleApplication7\PHotelData.BuisnessLogic.TestSuite\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Users\mbhanushali\Documents\Visual Studio 2015\Projects\ConsoleApplication7\PHotelData.BuisnessLogic.TestSuite\obj\Debug\PHotelData.BuisnessLogic.TestSuite.dll
+C:\Users\mbhanushali\Documents\Visual Studio 2015\Projects\ConsoleApplication7\PHotelData.BuisnessLogic.TestSuite\obj\Debug\PHotelData.BuisnessLogic.TestSuite.pdb

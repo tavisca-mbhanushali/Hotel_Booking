@@ -1,0 +1,6 @@
+C:\Users\mbhanushali\Documents\Visual Studio 2015\Projects\ConsoleApplication7\ClassLibrary4\bin\Debug\ClassLibrary4.dll.config
+C:\Users\mbhanushali\Documents\Visual Studio 2015\Projects\ConsoleApplication7\ClassLibrary4\bin\Debug\ClassLibrary4.dll
+C:\Users\mbhanushali\Documents\Visual Studio 2015\Projects\ConsoleApplication7\ClassLibrary4\bin\Debug\ClassLibrary4.pdb
+C:\Users\mbhanushali\Documents\Visual Studio 2015\Projects\ConsoleApplication7\ClassLibrary4\obj\Debug\BookingDetailPojo.csprojResolveAssemblyReference.cache
+C:\Users\mbhanushali\Documents\Visual Studio 2015\Projects\ConsoleApplication7\ClassLibrary4\obj\Debug\ClassLibrary4.dll
+C:\Users\mbhanushali\Documents\Visual Studio 2015\Projects\ConsoleApplication7\ClassLibrary4\obj\Debug\ClassLibrary4.pdb

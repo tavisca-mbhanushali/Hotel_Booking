@@ -1,0 +1,1 @@
+C:\Users\mbhanushali\Documents\Visual Studio 2015\Projects\ConsoleApplication7\PHotelData.TestSuite\obj\Debug\PHotelData.TestSuite.csprojResolveAssemblyReference.cache
