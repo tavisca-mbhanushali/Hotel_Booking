@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace UserManagementOperation
 {
-    interface IuserUpdateOperation
+   public interface IuserUpdateOperation
     {
         void UpdateUser(Int64 Id, string FirstName, string LastName, string EmailId, string PhoneNumber);
     }

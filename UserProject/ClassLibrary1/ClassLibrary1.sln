@@ -9,8 +9,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserManagementTest", "UnitT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserManagementOperation", "UserManagementOperation\UserManagementOperation.csproj", "{7F552CEE-6CDA-43FC-B102-E3B2E1D6E657}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqData", "LinqData\LinqData.csproj", "{AA74ADE7-5DE4-4068-BCD4-C704BD620651}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,10 +27,6 @@ Global
 		{7F552CEE-6CDA-43FC-B102-E3B2E1D6E657}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F552CEE-6CDA-43FC-B102-E3B2E1D6E657}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F552CEE-6CDA-43FC-B102-E3B2E1D6E657}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AA74ADE7-5DE4-4068-BCD4-C704BD620651}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AA74ADE7-5DE4-4068-BCD4-C704BD620651}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AA74ADE7-5DE4-4068-BCD4-C704BD620651}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AA74ADE7-5DE4-4068-BCD4-C704BD620651}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

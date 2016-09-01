@@ -14,16 +14,20 @@ namespace UnitTestProject_demo
         public void TestCreateUser()
         {
             User user = new User();
-             user.Id = 1100;
-             user.FirstName = "John";
-             user.LastName = "Thomas";
-             user.EmailId = "jt@gmail.com";
-             user.PhoneNumber = "7894551230";
-             
+             user.Id = 1102;
+             user.FirstName = "Albert";
+             user.LastName = "Einstaein";
+             user.EmailId = "ae@gmail.com";
+             user.PhoneNumber = "1000000000";
 
-            UserOperationDB userOperationDB = new UserOperationDB();
-            userOperationDB.InsertUser(user.Id, user.FirstName, user.LastName, user.EmailId, user.PhoneNumber);
-            
+            //without dependancy injection
+           // UserOperationDB userInsert = new UserOperationDB();
+           // userInsert.InsertUser(user.Id, user.FirstName, user.LastName, user.EmailId, user.PhoneNumber);
+
+            IuserOperationDB service = ServiceFactory.getService();
+            service.InsertUser(user.Id, user.FirstName, user.LastName, user.EmailId, user.PhoneNumber);
+            Int64 collectId = service.InsertUser(user.Id, user.FirstName, user.LastName, user.EmailId, user.PhoneNumber);
+            Assert.IsTrue(collectId > 0);
         }
 
 
@@ -33,18 +37,24 @@ namespace UnitTestProject_demo
         public void TestCreateUserExceptionOnInvalidUserId()
         {
             User user = new User();
-            user.Id = 425;
-            user.FirstName = "Mohnish";
-            user.LastName = "Behl";
-            user.EmailId = "mp@gmail.com";
+            user.Id = 0;
+            user.FirstName = "Harshal";
+            user.LastName = "Gibbs";
+            user.EmailId = "hg@gmail.com";
             user.PhoneNumber = "7964551233";
-            
-            UserOperationDB userOperationDB = new UserOperationDB();
-            userOperationDB.InsertUser(user.Id, user.FirstName, user.LastName, user.EmailId, user.PhoneNumber);
-            
 
-           // Assert.IsNotNull(new User());
-           // Assert.IsTrue(new User().Id > 0);
+            //without dependancy injection
+            // UserOperationDB userInsert = new UserOperationDB();
+            // userInsert.InsertUser(user.Id, user.FirstName, user.LastName, user.EmailId, user.PhoneNumber);
+
+            IuserOperationDB service = ServiceFactory.getService();
+            service.InsertUser(user.Id, user.FirstName, user.LastName, user.EmailId, user.PhoneNumber);
+
+            Int64 collectId = service.InsertUser(user.Id, user.FirstName, user.LastName, user.EmailId, user.PhoneNumber);
+            Assert.IsTrue(collectId > 0);
+
+            //Assert.IsNotNull(new User());
+            //Assert.IsTrue(new User().Id > 0);
 
         }
 
