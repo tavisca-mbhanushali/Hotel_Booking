@@ -4,4 +4,5 @@
 3.console application gui 
 4.Insertion,Updation for Booking Table
 5.Selection for Show Booking table
-6.User Project Added containing CRUD operations on user
+6.User Project Added containing CRUD (INSERT/UPDATE/DELETE)operations on user
+7.User Project dependancy injection added
