@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace UserManagementOperation
 {
-    interface IuserDeleteOperation
+   public interface IuserDeleteOperation
     {
         void DeleteUser(Int64 Id);
        

@@ -15,14 +15,22 @@ namespace UnitTestProject_demo
         public void TestUpdateUser()
         {
             User user = new User();
-            user.Id = 210;
-            user.FirstName = "Dennis";
-            user.LastName = "Ritchi";
-            user.EmailId = "dr@gmail.com";
-            user.PhoneNumber = "7894351230";
+            user.Id = 423;
+            user.FirstName = "Sachin";
+            user.LastName = "Tendulkar";
+            user.EmailId = "st@gmail.com";
+            user.PhoneNumber = "1001001003";
 
-            userUpdateOperation userUpdate = new userUpdateOperation();
-            userUpdate.UpdateUser(user.Id, user.FirstName, user.LastName, user.EmailId, user.PhoneNumber);
+            //userUpdateOperation userUpdate = new userUpdateOperation();
+            //userUpdate.UpdateUser(user.Id, user.FirstName, user.LastName, user.EmailId, user.PhoneNumber);
+
+            IuserUpdateOperation service1 = ServiceFactory.getService1();
+            service1.UpdateUser(user.Id, user.FirstName, user.LastName, user.EmailId, user.PhoneNumber);
+            
+
+            //Assert.IsTrue(collectId > 0);
+
+
 
         }
     }

@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace UserManagementOperation
 {
-    interface IUserOperationDB
+  public interface IuserOperationDB
     {
-        void InsertUser(Int64 Id, string FirstName, string LastName, string EmailId, string PhoneNumber);
+        Int64 InsertUser(Int64 Id, string FirstName, string LastName, string EmailId, string PhoneNumber);
 
     }
 }

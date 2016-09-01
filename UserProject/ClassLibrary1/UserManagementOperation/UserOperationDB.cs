@@ -8,11 +8,11 @@ using System.Data.Common;
 
 namespace UserManagementOperation
 {
-    public class UserOperationDB : IUserOperationDB
+    public class UserOperationDB : IuserOperationDB
     {
 
         private const string DBName = "HotelBookingMan";
-        public void InsertUser(Int64 Id, string FirstName, string LastName, string EmailId, string PhoneNumber)
+        public Int64 InsertUser(Int64 Id, string FirstName, string LastName, string EmailId, string PhoneNumber)
         {
             DatabaseProviderFactory dbfactory = new DatabaseProviderFactory();
             Database defaultDB = dbfactory.CreateDefault();
@@ -31,6 +31,8 @@ namespace UserManagementOperation
             database.AddInParameter(dbcommand, "EmailId", System.Data.DbType.String, EmailId);
             database.AddInParameter(dbcommand, "PhoneNumber", System.Data.DbType.String, PhoneNumber);
             database.ExecuteScalar(dbcommand);
+
+            return Id;
         }
 
         /*
